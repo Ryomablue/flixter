@@ -1,6 +1,6 @@
 class Instructor::CoursesController < ApplicationController
-before_action :authenticate_user!
-before_action :require-authentrized_for_current_course, only: [:show]
+  before_action :authenticate_user!
+  before_action :require_authorized_for_current_course, only: [:show]
 
   def new
     @course = Course.new
@@ -24,8 +24,7 @@ before_action :require-authentrized_for_current_course, only: [:show]
       render text: "Unauthorized", status: :unauthorized
     end
   end
-  
-  
+
   helper_method :current_course
   def current_course
     @current_course ||= Course.find(params[:id])
