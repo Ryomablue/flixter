@@ -60,11 +60,47 @@
   
   <div id="footer">
     <div class="container">
-      <b>Teachers</b>
+      <div class="col-xs-12 col-sm-3">
+        <b>Teachers</b>
+        <br />
+        <%= link_to 'Teach a course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'My Dashboard', dashboard_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>Contact</b>
       <br />
-      <%= link_to 'Teach a course', new_instructor_course_path %>
+      hubbardandrewd@gmail.com
+      <br />
+      3 Greylock RD
+      <br />
+      Boston MA, 02134
+    </div>
+    <div class="col-xs-12 col-sm-3 social">
+      <b>Social</b>
+      <br />
+      <br />
+      <%= link_to 'https://github.com/Ryomablue' do %>
+        <%= image_tag 'github.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'https://twitter.com/ryomablue' do %>
+        <%= image_tag 'twitter.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'https://www.linkedin.com/in/andrew-hubbard-83860088' do %>
+        <%= image_tag 'linkedin.png', class: 'social-button' %>
+      <% end %>
     </div>
   </div>
+</div>
 
 </body>
 </html>
