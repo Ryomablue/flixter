@@ -63,6 +63,10 @@ test:
   <<: *default
   database: flixter_test
 
+  username: postgres
+  password: password
+  host: localhost
+
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
@@ -85,5 +89,6 @@ test:
 production:
   <<: *default
   database: flixter_production
-  username: flixter
-  password: <%= ENV['FLIXTER_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: password
+  host: localhost
