@@ -2,7 +2,7 @@
 
 Written mostly in Ruby but also utilizes JavaScript and jQuery.
 
-You can checkout Flixter [here] (https://flixter-ryomablue.herokuapp.com/). Sign up, enroll into a course, make your own course, and have fun learning!
+You can checkout Flixter here: https://flixter-ryomablue.herokuapp.com/ . Sign up, enroll into a course, make your own course, and have fun learning!
 
 ==Features:
 
