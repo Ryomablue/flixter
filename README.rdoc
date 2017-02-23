@@ -1,28 +1,25 @@
-== README
+== Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Written mostly in Ruby but also utilizes JavaScript and jQuery.
 
-Things you may want to cover:
+You can checkout Flixter here. Sign up, enroll into a course, make your own course, and have fun learning!
 
-* Ruby version
+==Features:
 
-* System dependencies
+*Easy to use platform for teachers to make courses and make money.
 
-* Configuration
+*Stripe is used to process payments by students purchasing courses made by teachers.
 
-* Database creation
+*Teachers can customize course lessons and sections with.
 
-* Database initialization
+*jQuery is used for drag and drop for teachers when they create their own course.
 
-* How to run the test suite
+*Uses Amazon Web Services (S3) for photos and videos.
 
-* Services (job queues, cache servers, search engines, etc.)
+*Devise for user security, sign-in forms, etc.
 
-* Deployment instructions
+*Users can be both students and teachers with restricted Admin access if making a teacher course.
 
-* ...
+*Shows all courses that students are enrolled into & shows all courses teachers are teaching.
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+==Here's a sneak peek at the teacher administrative page when editing a course.
